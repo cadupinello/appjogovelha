@@ -1,0 +1,31 @@
+h2 {
+    margin-top: -5px;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 320px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: teal;
+    border: 3px solid black;
+}
+
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.casa {
+    width: 75px;
+    height: 65px;
+    font-size: 25px;
+    margin: 4px 2px;
+    font-weight: 300;
+    padding-top: 10px;
+    border-radius: 3px;
+    text-align: center;
+    background-color: cadetblue;
+}
